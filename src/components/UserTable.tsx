@@ -12,7 +12,7 @@ export default function UserTable() {
         columnType: "filters",
         order: "asc"
     })
-
+    
     
     //Set the column to sort by
     const handleSortClick = (column: "id" | "name" | "username" | "email" | "phone") => {

@@ -11,7 +11,7 @@ interface UserState {
 const initialState: UserState = {
     users: [] as User[],
     notification: null as Notification | null,
-    filterOption: '',
+    filterOption: 'filters',
     searchValue: ''
 }
 

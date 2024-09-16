@@ -10,11 +10,8 @@ export default function SearchAndFilter() {
     const filterOption = useSelector((state: RootState) => state.users.filterOption)
     const searchInput = useSelector((state: RootState) => state.users.searchValue)
     
-    
-
     function hanldleInputChange(event: React.ChangeEvent<HTMLInputElement>) {
-      dispatch(setSearchValue(event.target.value))
-     
+      dispatch(setSearchValue(event.target.value)) 
     }
 
     function handleSelectChange(event: React.ChangeEvent<HTMLSelectElement>) {
