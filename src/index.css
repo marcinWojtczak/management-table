@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        background-color: #f1f5f9;
+        margin: 0;
+        padding: 0;
+    }
+
+
+    h1 {
+        @apply text-[47.78px] font-black;
+    };
+    
+    h2 {
+        @apply text-[39.81px] font-extrabold;
+    };
+
+    h3 {
+        @apply text-[33.18px] font-bold;
+    };
+    
+    h4 {
+        @apply text-[27.65px] font-semibold;
+    };
+
+    h5 {
+        @apply text-[23.04px] font-medium
+    };
+
+    h6 {
+        @apply text-[19.2px] font-normal
+    };
+
+    p {
+        @apply text-[16px]
+    };
+
+    small {
+        @apply text-[13.33px] font-thin
+    };
+}
